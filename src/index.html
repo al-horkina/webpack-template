@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Webpack</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Webpack</title>
 </head>
 <body>
 
@@ -46,37 +46,33 @@
 </header>
 <main>
 
-    <section class="greeting inner-layout">
-        <h1>Lorem ipsum dolor sit amet.</h1>
-        <div class="translate-wrap">
-            <div class="greeting-motion">
-                <img src="/assets/img/a12_screen_image_1_medium_2x.png" alt="">
-            </div>
-            <div class="greeting-about flex column">
-
-                <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus asperiores cupiditate
-                        exercitationem
-                        mollitia nihil odio officia quidem quod veniam vitae.</p>
+    <section class="greeting">
+        <div class="content-wrapper">
+            <h1>Lorem ipsum dolor sit amet.</h1>
+            <div class="translate-wrap">
+                <div class="greeting-motion">
+                    <img src="/assets/img/a12_screen_image_1_medium_2x.png" alt="">
                 </div>
+                <div class="greeting-about flex column">
 
-                <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus asperiores cupiditate
-                        exercitationem
-                        mollitia nihil odio officia quidem quod veniam vitae.</p>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus asperiores cupiditate
+                            exercitationem
+                            mollitia nihil odio officia quidem quod veniam vitae.</p>
+                    </div>
+
+                    <div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus asperiores cupiditate
+                            exercitationem
+                            mollitia nihil odio officia quidem quod veniam vitae.</p>
+                    </div>
+
                 </div>
-
-                <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus asperiores cupiditate
-                        exercitationem
-                        mollitia nihil odio officia quidem quod veniam vitae.</p>
-                </div>
-
             </div>
         </div>
     </section>
 
-    <section class="description inner-layout">
+    <section class="description inner-layout content-wrapper">
         <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad atque cupiditate error expedita illum
             neque quas rerum ut vel vitae?</h2>
 
@@ -88,37 +84,61 @@
     </section>
 
 
-    <section class="flex space-around inner-layout services">
+    <section class="flex space-around inner-layout services content-wrapper">
         <div>
-            <p>Lorem ipsum dolor sit amet.</p>
             <img class="icon-chat" src="/assets/img/chat.svg" alt="">
+            <p>Lorem ipsum dolor sit amet.</p>
         </div>
         <div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             <img class="icon-dollar" src="/assets/img/dollar.svg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
         </div>
         <div>
-            <p>Lorem ipsum dolor sit.</p>
             <img class="icon-setup" src="/assets/img/setup.svg" alt="">
+            <p>Lorem ipsum dolor sit.</p>
+
         </div>
         <div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, nobis!</p>
             <img class="icon-shipping" src="/assets/img/shipping.svg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, nobis!</p>
+
         </div>
     </section>
 
     <section class="splice-wrap">
 
-        <div class="module parallax parallax2">
-            <!--<h3>Lorem ipsum dolor sit amet, consectetur.</h3>-->
-            <div class="container-splice">
-                <div class="rect"></div>
+        <h3>Lorem ipsum dolor sit amet, consectetur.</h3>
+        <div class="container-splice">
+
+            <div class="flip">
+                <div class="front"></div>
+                <div class="back"></div>
             </div>
         </div>
     </section>
 
 
-
 </main>
+
+<footer class="inner-layout">
+    <p class="license">©2019 tulusdriyo. All Rights Reserved.</p>
+    <ul class="sotial">
+        <li class="sotial__list">
+            <a href="#" class="sotial__link sotial__link--linked"><i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a></li>
+        <li class="sotial__list">
+            <a href="#" class="sotial__link sotial__link--google"><i class="fa fa-google-plus" aria-hidden="true"></i>
+            </a></li>
+        <li class="sotial__list"><a href="#" class="sotial__link sotial__link--facebook">
+            <i class="fa fa-facebook" aria-hidden="true"></i></a>
+        </li>
+        <li class="sotial__list">
+            <a href="#" class="sotial__link sotial__link--twitter"><i class="fa fa-twitter" aria-hidden="true"></i>
+            </a></li>
+    </ul>
+</footer>
+
+<script src="https://use.fontawesome.com/37f5d03d4c.js"></script>
 </body>
 </html>
