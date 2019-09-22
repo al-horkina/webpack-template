@@ -1,0 +1,15 @@
+body {
+  @include flex-col-between();
+  //background-color: rgba(32, 48, 70, 0.9);
+  background-color: #384f70;
+  background-image:url("../img/Vector2.png");
+  background-repeat: repeat;
+  font-family: $mainFont;
+  text-align: center;
+  padding: 50px 0;
+  color: $mainColor;
+  min-height: 100vh;
+  box-sizing: border-box;
+
+
+}

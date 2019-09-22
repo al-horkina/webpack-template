@@ -2,8 +2,13 @@
 @import "utils/vars";
 @import "utils/mixins";
 @import "utils/fonts";
-@import "utils/print";
 
 
 
-@import "modules/header.scss";
+@import "modules/commons";
+@import "modules/header";
+@import "modules/inform";
+@import "modules/nav";
+@import "modules/footer";
+@import "modules/map";
+

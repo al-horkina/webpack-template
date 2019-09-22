@@ -1,0 +1,77 @@
+.inform {
+  margin: 20px 0;
+
+  &__box {
+    max-width: 428px;
+    margin: 45px auto 0;
+
+  }
+
+  &__text {
+    font-family: $titleFont;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    padding: 10px 15px;
+    background: rgba(255, 255, 255, .15);
+    display: inline;
+    border-radius: 40px;
+    margin: 36px 0;
+
+  }
+
+  &__images {
+    @include flex-row-between();
+    padding: 0 30px 10px;
+
+  }
+
+  &__names {
+    @include flex-row-between();
+    //margin-left: 12px;
+    padding-top: 5px;
+
+    p {
+      font-family: $mainFont;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 14px;
+      letter-spacing: 0.04em;
+      width: 100px;
+    }
+
+  }
+
+  &__points {
+    @include flex();
+    justify-content: center;
+    position: relative;
+    padding: 2px 0 0 15px;
+
+  }
+
+  &__item {
+    width: 148px;
+    border-bottom: 1px solid $mainColor;
+    position: relative;
+    margin: 0 8px;
+    font-size: 0;
+
+    &:before {
+      content: "";
+      background: radial-gradient(ellipse at center, rgba(0,209,255,1) 0%,rgba(0,209,255,1) 49%,rgba(0,209,255,0) 50%,rgba(0,209,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      position: absolute;
+      left: -16px;
+      top: -8px;
+      border-radius: 50%;
+      padding: 7px;
+      border: 1px solid $mainColor;
+    }
+
+    &:last-child {
+      width: 0;
+    }
+
+  }
+
+}
